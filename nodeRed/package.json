@@ -1,0 +1,15 @@
+{
+  "name": "nodered",
+  "version": "1.0.0",
+  "description": "Node Red in SAP Cloud Foundry",
+  "scripts": {
+    "start": "node ./node_modules/node-red/red.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sabarna Chatterjee",
+  "license": "ISC",
+  "dependencies": {
+    "node-pre-gyp": "^0.15.0",
+    "node-red": "^1.1.3"
+  }
+}

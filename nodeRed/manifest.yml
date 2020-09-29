@@ -1,0 +1,7 @@
+applications:
+  - name: nodeRedonSCPCF
+    random-route: true
+    path: ./
+    buidpack: https://github.com/cloudfoundry/nodejs-buidpack
+    host: nodeRedonSCPCF
+    memory: 128M
